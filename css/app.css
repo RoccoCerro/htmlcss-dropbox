@@ -1,11 +1,11 @@
 /* RESET */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-ul,ol,menu{
+ul,ol,menu {
     list-style: none;
 }
 
@@ -19,25 +19,43 @@ a {
 	color: currentColor;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* LAYOUT */
 .container-lg {
-    max-width: 1024px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
-/* DEBUG */
-header.debug{
-    border: 3px solid black;
-    height: 50px;
+.row {
+    display: flex;
 }
 
-.debug .container-lg{
-    border: 3px solid red;
-    height: 100%;
-}
-
-.debug .row{
-    border: 3px solid blue;
-    height: 100%;
+/* STYLE HEADER*/
+header .container-lg>.row {
     width: 100%;
+    min-height: 50px;
+    justify-content: space-between;
 }
+
+header .container-lg ul.row {
+    min-height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    gap: 25px; 
+}
+
+header li {
+    color: #8C8C8C;
+}
+
+header #button__start{
+    background-color: #0061FF;
+    color: white;
+    padding: 9px 15px;
+}
+
+/* DEBUG */
