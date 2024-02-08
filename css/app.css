@@ -53,9 +53,13 @@ header li {
 }
 
 header #button__start{
+    padding: 9px 15px;
+}
+
+/* UTILITY */
+.button{
     background-color: #0061FF;
     color: white;
-    padding: 9px 15px;
 }
 
 /* DEBUG */
