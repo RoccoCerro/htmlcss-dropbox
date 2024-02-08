@@ -74,9 +74,6 @@ main .main__hero{
 
 main #title__hero {
     font-size: 60px;
-}
-
-main .container#title__hero{
     padding-bottom: 40px;
 }
 
