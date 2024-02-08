@@ -20,3 +20,24 @@ a {
 }
 
 /* LAYOUT */
+.container-lg {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* DEBUG */
+header.debug{
+    border: 3px solid black;
+    height: 50px;
+}
+
+.debug .container-lg{
+    border: 3px solid red;
+    height: 100%;
+}
+
+.debug .row{
+    border: 3px solid blue;
+    height: 100%;
+    width: 100%;
+}
