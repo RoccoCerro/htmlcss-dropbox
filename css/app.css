@@ -69,6 +69,7 @@ header #button__start {
 main .main__hero{
     background-color: #B4D0E7;
     padding-top: 60px;
+    height: 580px
 }
 
 main #title__hero {
@@ -86,8 +87,8 @@ main .main__hero .col-1 {
 
 main .main__hero i{
     margin-top: auto;
-    padding-bottom: 15px;
-    font-size: 30px;
+    padding-bottom: 70px;
+    font-size: 35px;
 }
 
 /* UTILITY */
