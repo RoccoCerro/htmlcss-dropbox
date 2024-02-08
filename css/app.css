@@ -78,15 +78,15 @@ header #button__start {
     line-height: 30px;
 }
 
-/* STYLE HERO */
+/* STYLE MAIN__HERO */
 main .main__hero{
     background-color: #B4D0E7;
     padding-top: 60px;
-    height: 660px
+    height: 630px
 }
 
 main #title__hero {
-    font-size: 60px;
+    font-size: 53px;
     padding-bottom: 40px;
 }
 
@@ -95,7 +95,7 @@ main .main__hero .col-1 {
     gap: 20px;
 }
 
-main .main__hero i{
+main .main__hero i {
     margin-top: auto;
     padding-bottom: 70px;
     font-size: 35px;
@@ -105,6 +105,15 @@ main .main__hero button{
     /* max-width: 200px; */
 }
 
+/* STYLE MAIN__BUSINESS */
+main .main__business{
+    margin-top: 130px;
+}
+
+.main__business .container-sm>.font_size_title_h3 {
+    padding-bottom: 40px;
+}
+
 /* UTILITY */
 .button{
     background-color: #0061FF;
@@ -112,6 +121,10 @@ main .main__hero button{
     line-height: 40px;
     padding: 0 15px;
     /* max-width: 200px; */
+}
+
+.font_size_title_h3{
+    font-size: 40px;
 }
 
 /* DEBUG */
