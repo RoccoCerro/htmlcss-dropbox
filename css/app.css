@@ -79,6 +79,17 @@ main .container#title__hero{
     padding-bottom: 40px;
 }
 
+main .main__hero .col-1 {
+    flex-direction: column;
+    gap: 20px;
+}
+
+main .main__hero i{
+    margin-top: auto;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
 /* UTILITY */
 .button{
     background-color: #0061FF;
@@ -89,11 +100,3 @@ main .container#title__hero{
 
 /* DEBUG */
 
-.col-1{
-    flex-direction: column;
-    gap: 20px;
-}
-.col-1 :nth-child(3){
-    color: red;
-    margin-bottom: auto;
-}
