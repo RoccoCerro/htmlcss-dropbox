@@ -29,11 +29,20 @@ img {
     margin: 0 auto;
 }
 
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
 .row {
     display: flex;
 }
 
 /* STYLE HEADER*/
+header .container-lg {
+    padding: 5px 0;
+}
+
 header .container-lg>.row {
     width: 100%;
     min-height: 50px;
@@ -53,7 +62,12 @@ header li {
 }
 
 header #button__start{
-    padding: 9px 15px;
+    padding: 7px 15px;
+}
+
+/* STYLE MAIN */
+#title__hero {
+    font-size: 60px;
 }
 
 /* UTILITY */
@@ -63,3 +77,8 @@ header #button__start{
 }
 
 /* DEBUG */
+
+.debug .container {
+    border: 3px solid red;
+    /* height: 100px; */
+}
