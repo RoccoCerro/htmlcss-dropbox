@@ -9,7 +9,7 @@ ul,ol,menu {
     list-style: none;
 }
 
-button {
+input, button {
 	background-color: transparent;
 	border: none;
 }
@@ -50,6 +50,18 @@ img {
 
 .col-2{
     width: 70%;
+}
+
+.col-4{
+    width: calc(4*100%/12);
+}
+
+.col-10{
+    width: 80%;
+}
+
+.col-11 {
+    width: 20%;
 }
 
 /* STYLE HEADER*/
@@ -115,6 +127,30 @@ main .main__business{
     padding-bottom: 40px;
 }
 
+.main__business .col-4{
+    padding: 15px 15px;
+}
+
+.main__business .row :last-child{
+    flex-grow: 1;
+}
+
+.main__business .card__header{
+    border: 1px solid gray;
+    line-height: 35px;
+    text-align: center;
+}
+
+.main__business .card__main{
+    border: 1px solid gray;   
+}
+
+.main__business .card__main_style {
+    padding: 15px 15px;
+    flex-direction: column;
+    gap: 35px;
+}
+
 /* UTILITY */
 .button{
     background-color: #0061FF;
@@ -124,9 +160,32 @@ main .main__business{
     /* max-width: 200px; */
 }
 
-.font_size_title_h3{
+.font_size_title_h3 {
     font-size: 40px;
 }
 
-/* DEBUG */
+.flex {
+    display: flex;
+}
 
+.column-gap_15 {
+    flex-direction: column;
+    gap: 15px;
+}
+
+.margin-top-25 {
+    margin-top: 25px;
+}
+
+.margin-right {
+    margin-right: 40px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.padding_15 {
+    padding: 15px 15px;
+}
+/* DEBUG */

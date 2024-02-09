@@ -50,62 +50,196 @@
             </div>
         </section>
         
-        <section class="main__business">
+        <!-- SEZIONE BUSINESS  -->
+        <section class="debug main__business">
+            <!-- TITOLO E MODALITA' DI FATTURAZIONE  -->
             <div class="container-sm">
                 <h3 class="font_size_title_h3">Trova il piano business che fa per te</h3>
-                <input type="radio" name="drone"/>Fatturazione mensile
-                <input type="radio" name="drone"/>Fatturazione annuale
+                <div class="inline-block margin-right"><input type="radio" name="drone"/>  Fatturazione mensile</div>
+                <div class="inline-block"><input type="radio" name="drone"/>  Fatturazione annuale</div>
             </div>
-            <div class="row container-sm">
-                <div class="col-4">
-                    <div class="card">
-                        <div class="card__header">
-
-                        </div>
-                        <div class="card__main">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
+            <!-- CARD PIANO BUSINESS  -->
+            <div class="container-sm margin-top-25">
+                <div class="row">
+                    <!-- CARD PROFESSIONAL -->
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="card__header">
+                                <i class="fa-solid fa-user"></i>
+                                <span>Singolo</span>
+                            </div>
+                            <div class="card__main card__main_style flex">
+                                <div class="flex column-gap_15"> 
+                                    <h3>Professional</h3>
+                                    <div>&euro;12.00</div>
+                                    <div>/mese</div>
+                                </div>
+                                <div>
+                                    <ul class="flex column-gap_15">
+                                        <li>
+                                            <i class="fa-solid fa-user"></i>
+                                            <span>1 utente</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-folder"></i>
+                                            <span>5 TB di spazio di archiviazione sicuro</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-share-nodes"></i>
+                                            <span>Funzioni di produttività premium e condivisione dei file semplice e sicura</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="flex column-gap_15">
+                                    <input type="button" value="Prova gratis per 30 giorni" class="button">
+                                    <div>Oppure <a href="#">Acquista ora</a></div>
+                                </div>
+                                <div class="flex column-gap_15">
+                                    <strong>Punti Salienti del piano</strong>
+                                    <ul class="flex column-gap_15">
+                                        <li>
+                                            <i class="fa-sharp fa-solid fa-check"></i>
+                                            Invia fino a 100 GB con Dropbox Transfer
+                                        </li>
+                                        <li>
+                                            <i class="fa-sharp fa-solid fa-check"></i>
+                                            Cartella offline su dispositivi mobili
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-4">
-                    <div class="card">
-                        <div class="card__header">
-
-                        </div>
-                        <div class="card__main">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
+                    <!-- CARD ADVANCED  -->
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="card__header">
+                                <i class="fa-sharp fa-solid fa-users"></i>
+                                <span>Team</span>
+                            </div>
+                            <div class="card__main card__main_style flex">
+                                <div class="flex column-gap_15">
+                                    <h3>Advanced</h3>
+                                    <div>&euro;18.00</div>
+                                    <div>/utente/mese</div>
+                                </div>
+                                <div>
+                                    <ul class="flex column-gap_15">
+                                        <li>
+                                            <i class="fa-sharp fa-solid fa-users"></i>
+                                            <span>3 o più utenti</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-folder"></i>
+                                            <span>Tutto lo spazio di cui ha bisogno il tuo team</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-share-nodes"></i>
+                                            <span>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="flex column-gap_15">
+                                    <input type="button" value="Prova gratis per 30 giorni" class="button">
+                                    <div>Oppure <a href="#">Acquista ora</a></div>
+                                </div>
+                                <div class="flex column-gap_15">
+                                    <strong>Punti Salienti del piano</strong>
+                                    <ul class="flex column-gap_15">
+                                        <li>
+                                            <i class="fa-sharp fa-solid fa-check"></i>
+                                            Nessun limite di spazio peri file
+                                        </li>
+                                        <li>
+                                            <i class="fa-sharp fa-solid fa-check"></i>
+                                            Cartella offline su dispositivi mobili
+                                        </li>
+                                        <li>
+                                            <i class="fa-sharp fa-solid fa-check"></i>
+                                            Risparmio del 50% rispetto alle iscrizionI SIngole
+                                        </li>
+                                        <li>
+                                            <i class="fa-sharp fa-solid fa-check"></i>
+                                            Possibilita di inserire nuovi menbri del team
+                                        </li>
+                                        <li>
+                                            <i class="fa-sharp fa-solid fa-check"></i>
+                                            Gestione dei permessi in base ai ruoli
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-4">
-                    <div class="card">
-                        <div class="card__header">
-
-                        </div>
-                        <div class="card__main">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
+                    <!-- CARD ENTERPRICE -->
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="card__header">
+                                <i class="fa-solid fa-building"></i>
+                                <span>Team</span>
+                            </div>
+                            <div class="card__main card__main_style  flex">
+                                <div class="flex column-gap_15">
+                                    <h3>Enterprice</h3>
+                                    <div>Contattaci</div>
+                                    <div>-</div>
+                                </div>
+                                <div>
+                                    <ul class="flex column-gap_15">
+                                        <li>
+                                            <i class="fa-solid fa-user"></i>
+                                            <span>10 o più utenti</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-folder"></i>
+                                            <span>Soluzioni personalizzabili per la tua azienda</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-share-nodes"></i>
+                                            <span>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="flex column-gap_15">
+                                    <input type="button" value="Prova gratis per 30 giorni" class="button">
+                                    <div>Oppure <a href="#">Acquista ora</a></div>
+                                </div>
+                                <div class="flex column-gap_15">
+                                    <strong>Punti Salienti del piano</strong>
+                                    <ul class="flex column-gap_15">
+                                        <li>
+                                            <i class="fa-sharp fa-solid fa-check"></i>
+                                            Cartelle offline su dispositivi mobili
+                                        </li>
+                                        <li>
+                                            <i class="fa-sharp fa-solid fa-check"></i>
+                                            Servizio assistenza 24/h
+                                        </li>
+                                        <li>
+                                            <i class="fa-sharp fa-solid fa-check"></i>
+                                            Possibilità di personalizzazione totale
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-4">
-                    <div class="card">
-                        <div class="card__header">
-
-                        </div>
-                        <div class="card__main">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="card__header">
+                                <i class="fa-solid fa-building"></i>
+                                <span>Team</span>
+                            </div>
+                            <div class="card__main flex padding_15">
+                                <div class="col-10 flex column-gap_15">
+                                    <h3>Enterprice</h3>
+                                    <strong>Contatta l'ufficio vendite per i prezzi</strong>
+                                    <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nekka gestione su qualsiasi scelta.</p>
+                                </div>
+                                <div class="col-11">
+                                    <button class="button">Contatta l'ufficio vendite<button></button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
