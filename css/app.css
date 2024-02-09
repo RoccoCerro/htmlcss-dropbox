@@ -44,19 +44,19 @@ img {
     flex-wrap: wrap;
 }
 
-.col-1{
+.col-1 {
     width: 30%;
 }
 
-.col-2{
+.col-2 {
     width: 70%;
 }
 
-.col-4{
+.col-4 {
     width: calc(4*100%/12);
 }
 
-.col-10{
+.col-10 { 
     width: 80%;
 }
 
@@ -128,7 +128,8 @@ main .main__business{
 }
 
 .main__business .col-4{
-    padding: 15px 15px;
+    padding: 15px 0px;
+    padding-right: 20px;
 }
 
 .main__business .row :last-child{
@@ -149,6 +150,17 @@ main .main__business{
     padding: 15px 15px;
     flex-direction: column;
     gap: 35px;
+}
+
+/* STYLE MAIN-PARTNER */
+.main-partner {
+    margin-top: 150px;
+}
+
+.main-partner .col-1 {
+    padding-left: 20px;
+    padding-top: 50px;
+    align-items: flex-start;
 }
 
 /* UTILITY */
@@ -187,5 +199,12 @@ main .main__business{
 
 .padding_15 {
     padding: 15px 15px;
+}
+
+.button-transparent{
+    color: grey;
+    border: 1px solid grey;
+    line-height: 30px;
+    padding: 0 10px;
 }
 /* DEBUG */
