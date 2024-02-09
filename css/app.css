@@ -30,20 +30,21 @@ img {
 }
 
 .container {
-    max-width: 1024px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .container-sm {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
- .col-1{
+.col-1{
     width: 30%;
 }
 
@@ -82,7 +83,7 @@ header #button__start {
 main .main__hero{
     background-color: #B4D0E7;
     padding-top: 60px;
-    height: 630px
+    /* height: 690px */
 }
 
 main #title__hero {
@@ -97,12 +98,12 @@ main .main__hero .col-1 {
 
 main .main__hero i {
     margin-top: auto;
-    padding-bottom: 70px;
+    padding-bottom: 25px;
     font-size: 35px;
 }
 
 main .main__hero button{
-    /* max-width: 200px; */
+    max-width: 200px;
 }
 
 /* STYLE MAIN__BUSINESS */
