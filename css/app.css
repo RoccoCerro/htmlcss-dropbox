@@ -247,6 +247,22 @@ main .main__business{
     color: brown;
 }
 
+/* STYLE MAIN-REQUESTS */
+.main-requests {
+    margin-top: 100px;
+}
+
+.main-requests h2 {
+    margin-bottom: 40px;
+}
+
+.main-requests .container-sm>div{
+    padding:40px 0;
+    border-top: 1px solid #8C8C8C;
+    border-bottom: 1px solid #8C8C8C;
+    font-weight: 800;
+}
+
 /* UTILITY */
 .button{
     background-color: #0061FF;
@@ -295,6 +311,31 @@ main .main__business{
     line-height: 30px;
     padding: 0 10px;
     background-color: white;
+}
+
+/* STYLE PAGE-FOOTER */
+.page-footer {
+    background-color: black;
+}
+
+.page-footer .row {
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.page-footer .col-5 {
+    color: white;
+}
+
+.page-footer strong {
+    display: block;
+    font-size: 19px;
+    padding-bottom: 20px;
+}
+
+.page-footer li{
+    color: rgba(255, 255, 255, 0.76);
 }
 
 /* DEBUG */
