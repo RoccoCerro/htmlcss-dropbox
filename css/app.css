@@ -64,6 +64,10 @@ img {
     width: 20%;
 }
 
+.col-50{
+    width: 50%;
+}
+
 /* STYLE HEADER*/
 header .container-lg {
     padding: 5px 0;
@@ -185,6 +189,50 @@ main .main__business{
     margin-bottom: 25px;
 }
 
+/* STYLE MAIN-TEAM */
+.main-team a{
+    text-decoration: underline;
+    color: blue;
+}
+
+.main-team h2{
+    margin-bottom: 30px;
+}
+
+.main-team{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* STYLE MAIN-SPONSOR */
+.main-sponsor .col-50{
+    aspect-ratio: 1/1;
+}
+
+.main-sponsor .sponsor{
+    width: 60%;
+}
+
+.main-sponsor .card{
+    justify-content: center;
+    align-items: center;
+}
+
+.main-sponsor #sponsor-center{
+    width: 40%;
+}
+
+#sponsor-center::after{
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: gray;
+    color: lightgray;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 /* UTILITY */
 .button{
     background-color: #0061FF;
@@ -221,6 +269,10 @@ main .main__business{
 
 .padding_15 {
     padding: 15px 15px;
+}
+
+.padding_30{
+    padding: 30px 30px;
 }
 
 .button-transparent{
