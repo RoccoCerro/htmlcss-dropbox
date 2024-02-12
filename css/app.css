@@ -124,7 +124,7 @@ main .main__hero button{
 
 /* STYLE MAIN__BUSINESS */
 .main__business .card, .card__main{
-    height: 100%;
+    height: 98%;
 }
 
 main .main__business{
@@ -159,6 +159,10 @@ main .main__business{
     flex-direction: column;
     gap: 35px;
 }
+
+.main__business .li {
+    list-style-position: outside;
+} 
 
 /* STYLE MAIN-PARTNER */
 .main-partner {
@@ -263,8 +267,34 @@ main .main__business{
     font-weight: 800;
 }
 
+/* STYLE PAGE-FOOTER */
+.page-footer {
+    background-color: black;
+}
+
+.page-footer .row {
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.page-footer .col-5 {
+    color: white;
+}
+
+.page-footer strong {
+    display: block;
+    font-size: 19px;
+    padding-bottom: 20px;
+}
+
+.page-footer li {
+    color: rgba(255, 255, 255, 0.76);
+}
+
+
 /* UTILITY */
-.button{
+.button {
     background-color: #0061FF;
     color: white;
     line-height: 40px;
@@ -301,11 +331,11 @@ main .main__business{
     padding: 15px 15px;
 }
 
-.padding_30{
+.padding_30 {
     padding: 30px 30px;
 }
 
-.button-transparent{
+.button-transparent {
     color: grey;
     border: 1px solid grey;
     line-height: 30px;
@@ -313,29 +343,7 @@ main .main__business{
     background-color: white;
 }
 
-/* STYLE PAGE-FOOTER */
-.page-footer {
-    background-color: black;
+.flex-wrap {
+    flex-wrap: wrap;
 }
-
-.page-footer .row {
-    justify-content: space-between;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.page-footer .col-5 {
-    color: white;
-}
-
-.page-footer strong {
-    display: block;
-    font-size: 19px;
-    padding-bottom: 20px;
-}
-
-.page-footer li{
-    color: rgba(255, 255, 255, 0.76);
-}
-
 /* DEBUG */
