@@ -233,6 +233,20 @@ main .main__business{
     margin-bottom: 20px;
 }
 
+/* STYLE MAIN-TRIAL */
+.main-trial{
+    background-color: #B4D0E7;
+}
+
+.main-trial .row{
+    padding: 60px 0;
+}
+
+.main-trial .col-2{
+    font-size: 25px;
+    color: brown;
+}
+
 /* UTILITY */
 .button{
     background-color: #0061FF;
@@ -280,6 +294,7 @@ main .main__business{
     border: 1px solid grey;
     line-height: 30px;
     padding: 0 10px;
+    background-color: white;
 }
 
 /* DEBUG */
