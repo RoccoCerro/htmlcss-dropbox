@@ -119,6 +119,10 @@ main .main__hero button{
 }
 
 /* STYLE MAIN__BUSINESS */
+.main__business .card, .card__main{
+    height: 100%;
+}
+
 main .main__business{
     margin-top: 130px;
 }
@@ -161,6 +165,24 @@ main .main__business{
     padding-left: 20px;
     padding-top: 50px;
     align-items: flex-start;
+}
+
+/* STYLE MAIN-OPERATIONS */
+.main-operations{
+    margin-top: 100px;
+}
+
+.main-operations .col-4{
+    padding: 15px 15px;
+
+}
+
+.main-operations h2{
+    font-size: 30px;
+}
+
+.main-operations h3{
+    margin-bottom: 25px;
 }
 
 /* UTILITY */
@@ -207,4 +229,5 @@ main .main__business{
     line-height: 30px;
     padding: 0 10px;
 }
+
 /* DEBUG */
