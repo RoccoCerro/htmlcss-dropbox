@@ -118,6 +118,8 @@ main .main__hero i {
     font-size: 35px;
     animation-name: example;
     animation-duration: 2s;
+    animation-iteration-count: 10;
+    animation-timing-function: cubic-bezier(.57,.38,.65,.77);
 }
 
 main .main__hero button{
@@ -131,16 +133,13 @@ main .main__hero button{
 
 @keyframes example {
     0% {
-        transform:translateY(-20px);
+        transform:translateY(0);
     }
     50% {
-        transform:translateY(-50px);
+        transform:translateY(10px);
     }
-    70% {
-        transform:translateY(-20px);
-    } 
     100% {
-        transform:translateY(0px);
+        transform:translateY(0);
     }   
 }
 
@@ -368,6 +367,24 @@ main .main__business{
 
 .flex-wrap {
     flex-wrap: wrap;
+}
+
+/* ANIMATION */
+.slide-in {
+    animation-name: slide-in;
+    animation-duration: 5s;
+}
+
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translateX(220px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 /* DEBUG */
