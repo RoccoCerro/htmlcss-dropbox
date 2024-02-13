@@ -116,15 +116,32 @@ main .main__hero i {
     margin-top: auto;
     padding-bottom: 60px;
     font-size: 35px;
-    transition: all 2s;
-}
-
-.main__hero i:hover {
-    padding-bottom: 200px;
+    animation-name: example;
+    animation-duration: 2s;
 }
 
 main .main__hero button{
     max-width: 200px;
+    transition: background-color 2s;
+}
+
+.main__hero button:hover {
+    background-color: #003791;
+}
+
+@keyframes example {
+    0% {
+        transform:translateY(-20px);
+    }
+    50% {
+        transform:translateY(-50px);
+    }
+    70% {
+        transform:translateY(-20px);
+    } 
+    100% {
+        transform:translateY(0px);
+    }   
 }
 
 .main__hero .relative-top {
