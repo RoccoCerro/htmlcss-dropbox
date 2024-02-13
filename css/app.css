@@ -243,6 +243,11 @@ main .main__business{
     aspect-ratio: 1/1;
 }
 
+.main-sponsor .col-4 {
+    aspect-ratio: 1;
+    overflow: auto;
+}
+ 
 .main-sponsor .sponsor{
     width: 60%;
 }
