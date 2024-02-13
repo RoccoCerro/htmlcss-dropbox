@@ -333,6 +333,22 @@ main .main__business{
     color: rgba(255, 255, 255, 0.76);
 }
 
+.page-footer .select-language::before {
+    content: "";
+    display: block;
+    width: 100px;
+    border: 1px solid rgba(211, 211, 211, 0.596);
+    /* margin-bottom: 50px; */
+}
+  
+.select-language select {
+    font-size: 0.9rem;
+    padding: 5px 0;
+    margin: 50px 0;
+    background-color: transparent;
+    color: rgba(211, 211, 211, 0.61);
+    border: none;
+  }
 
 /* UTILITY */
 .button {
