@@ -186,6 +186,14 @@ main .main__business{
     gap: 35px;
 }
 
+.main__business .align-button {
+    margin-top: 39px;
+}
+
+.main__business .align-button-2 {
+    margin-top: 19px;
+}
+
 /* STYLE MAIN-PARTNER */
 .main-partner {
     margin-top: 150px;
